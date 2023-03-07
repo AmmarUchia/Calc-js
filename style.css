@@ -1,0 +1,50 @@
+.github {
+  background-color: #e3f9ff;
+  overflow: hidden;
+}
+
+.github a svg {
+  width: 50px;
+  height: 50px;
+  transform: skew(189deg);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e3f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc {
+  padding: 20px;
+  background-color: #3a4452;
+  border-radius: 10px;
+}
+
+.calc form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+}
